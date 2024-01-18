@@ -1,0 +1,25 @@
+.clicker {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.clicker__button, 
+.clicker__screen {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.clicker__screen {
+    background-color: #318cf35a;
+}
+
+.clicker__button {
+    background-color: #ff620099;
+}
+
+.clicker__button:disabled {
+    background-color: #edcdb9;
+    cursor: not-allowed;
+}
